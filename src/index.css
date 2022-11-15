@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,600;1,100;1,200;1,400&family=Libre+Franklin:wght@100;200;300;400;500;600&display=swap');
+
+
 
 @font-face {
   font-family: 'Pacifico';
@@ -188,7 +191,7 @@ ul{
 
 .about__main_txt{
   font-family: 'Libre Franklin';
-  font-weight:700;
+  font-weight:400;
   font-size: 40px;
   Line-height: 50px;
   text-align: 'center' 
@@ -233,14 +236,14 @@ ul{
 .left__head__text{
   font-family: 'Libre Franklin';
   font-size: 29px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 36px;
 }
 
 .right__head__text{
   font-family: 'Libre Franklin';
   font-size: 29px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 36px;
 }
 
@@ -295,16 +298,16 @@ ul{
 }
 
 .left__headtxt__vazi{
-  font-family: 'Libre Franklin';
+  font-family: 'Libre-Franklin', sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 34px;
   text-align: left;
   margin-top: 60px;
 }
 
 .vazi__desc{
-  font-family: 'Libre Franklin';
+  font-family: 'Libre-Franklin', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -316,7 +319,7 @@ ul{
   font-family: 'Libre Franklin';
   text-decoration: none;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 24px;
   margin-top: 27px;
   text-align: left;
@@ -357,7 +360,7 @@ ul{
   font-family: 'Libre Franklin';
   color:black;
   font-size: 40px;
-  font-weight:700;
+  font-weight:400;
   line-height: 50px;
   text-align: center;
   margin-bottom: 63px;
@@ -375,6 +378,10 @@ ul{
   height: 100%;
   width: 100%; 
   margin-bottom: 21px;
+}
+
+.shop__card:hover{
+  transform: scale(1.05);
 }
 
 .shop__card:not(:first-child){
